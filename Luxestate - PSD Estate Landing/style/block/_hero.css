@@ -1,0 +1,135 @@
+.hero{
+    height: 631px;
+    
+    
+}
+.hero__container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    background-image: url("../../img/Path.svg") ;
+    background-repeat: no-repeat;
+    background-position: right top;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+
+.hero-title{
+   
+width: 590px;
+height: 139px;
+color: #1f373d;
+
+font-size: 62px;
+font-weight: 600;
+line-height: 78px;
+
+letter-spacing: -1.54px;
+}
+.hero-search{
+    position: relative;
+    margin-top: 48px;
+}
+.hero-search-input{
+   border: none;
+    height: 71px;
+    width: 365px;
+    font-size: 15px;
+    font-weight: 400;
+    
+    color: #919eb1;
+    outline: none;
+    padding-left: 56px;
+    box-shadow: 0 2px 25px rgba(23, 44, 51, 0.15);
+}
+.hero-search::before{
+    position: absolute;
+    content: "";
+    background-image: url("../../img/icon/Composite_Path.svg");
+    top: 28px;
+    left: 28px;
+    height: 15px;
+    width: 15px;
+   
+}
+input[type='search']::-webkit-search-decoration, 
+input[type='search']::-webkit-search-cancel-button, 
+input[type='search']::-webkit-search-results-button, 
+input[type='search']::-webkit-search-results-decoration {
+	display: none;
+}
+.hero-search-button{
+    box-shadow: 0 2px 25px rgba(23, 44, 51, 0.15);
+    border-radius: 0px 6px 7px 0px;
+    border: none;
+    background-color: #ffcc01;
+    position: absolute;
+    height: 71px;
+    width: 116px;
+    transition: .3s;
+    color: #1f373d;
+    font-size: 15px;
+    letter-spacing: -0.38px;
+    font-weight: 600;
+    color: #1f373d;
+    font-family: Montserrat;
+}
+.hero-search-button:hover{
+    background-color:#97cbd8;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.hero-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 111px;
+    margin-top: 140px; 
+}
+.hero-info-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81px;
+    width: 581px;
+    background-color: #ffcc01;
+}
+.hero-info-phone-items{
+    display: flex;
+    margin-right: 66px;
+}
+.hero-info-phone-items:last-child{
+    margin: 0;
+}
+.hero-info-phone-icon{
+    margin-right: 32px;
+}
+.hero-info-phone-data{
+    color: #1f373d;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.45px;
+}
+.hero-info-scroll{
+    position: relative;
+    margin-bottom: 50px;
+}
+.hero-info-scroll::after{
+    content: "";
+    position: absolute;
+    background-image: url(../../img/icon/Shape.svg);
+    height: 28px;
+    width: 13px;
+    top: 93px;
+}
+.hero-info-scroll-title{
+    transform:rotate(-90deg);
+    display:inline-block;
+    height: 71px;
+    font-size: 12px;
+}

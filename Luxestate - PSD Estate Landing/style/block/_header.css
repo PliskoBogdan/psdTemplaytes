@@ -1,0 +1,82 @@
+
+
+
+.header{
+    height: 40px;
+    margin: 27px 0px 27px 0px;
+    display: flex;
+    align-items: center;
+  
+}
+.header__container {
+    padding: 0px 42px 0px 0px;
+    margin: 0 auto;
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: -0.63px;
+cursor: default;
+
+}
+
+
+.header__link-item{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    text-decoration: none;
+    color: #1f373d;
+    margin-right: 33px;
+    transition: 0.3s;
+  
+}
+.header__link-item:hover{
+    color: #97cbd8;
+}
+.header__link-item:last-child{
+    margin: 0;
+}
+.header__authentication{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.header__authentication-items {
+    text-decoration: none;
+    color: #1f373d;
+font-size: 13px;
+font-weight: 600;
+height: 100%;
+display: flex;
+align-items: center;
+margin-right: 20px;
+transition: .3s;
+   
+   
+}
+.header__authentication-items:hover{
+    color: #97cbd8;
+}
+.header__authentication-items:last-child{
+    margin: 0;
+}
+.header__authentication-getStart{
+    background-color: #ffcc01;
+    border-radius: 5px;
+    padding: 0px 21px 0px 26px;
+    transition: .7s;
+    
+}
+.header__authentication-getStart:hover{
+    background-color: #96bece;
+        color: #fff;
+}

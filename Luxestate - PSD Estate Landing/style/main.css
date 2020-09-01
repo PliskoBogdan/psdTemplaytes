@@ -1,0 +1,8 @@
+/* //base */
+@import "./baze/_baze.css";
+        /* //block */
+@import "./block/_header.css";
+@import "./block/_hero.css";
+@import "./block/_ourCompany.css";
+@import "./block/_appartaments.css";
+@import "./block/_howItWorks.css"
